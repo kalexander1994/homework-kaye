@@ -1,0 +1,165 @@
+body,html
+{
+  height: 100%;
+  background-color: #f7ccff;
+}
+
+  ul {
+    list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	text-align:center;
+    color:white;
+  }
+
+  li
+  { 
+    display: inline;
+    text-align: center; 
+    color: white;
+    font-size: 16px;
+    font-family:helvetica;
+}
+
+a:link
+{
+    text-align: center; 
+    color: white;
+    font-size: 16px;
+    font-family:helvetica;
+
+}
+
+a:visited
+{
+    text-align: center; 
+    color: white;
+    font-size: 16px;
+    font-family:helvetica;
+    
+}
+
+a:hover
+{
+  background-color: #ffc6fe;
+  text-decoration: none;
+  color:#fc00f8;
+}
+
+h1
+  {
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+  }
+
+h2
+{
+  text-decoration: underline;
+  font-family: helvetica;
+  text-align: center;
+}
+    
+  
+h3
+  { 
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+
+h4
+  {
+    text-align:center;
+  }
+
+
+.intro
+  {
+    font-family: helvetica;
+    text-align: center;
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.5em;
+    padding: 10px;
+    text-overflow:scroll;
+
+  
+
+  }
+
+.contact
+{
+  font-family: helvetica;
+  text-align: center;
+
+}
+
+.edu
+{
+  font-family: helvetica;
+  border: 1px white solid;
+  width: 80%;
+  margin: auto;
+  line-height: 1.3em;
+  text-indent:.2em;
+}
+
+.work
+{
+  font-family: helvetica;
+  border: 1px white solid;
+  width: 80%;
+  margin: auto;
+  line-height: 1.3em;
+  text-indent: .2em;
+}
+  
+  
+
+
+.hero-image {
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("stock.jpg"); 
+    height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  }
+
+
+#container{
+width: 500px; 
+margin: 0 auto;
+
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}   
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.desc {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 12px;
+  width: 120px;
+  margin: 5px;
+}
+
+
