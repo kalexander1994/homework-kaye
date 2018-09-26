@@ -88,6 +88,8 @@ header
 	height: 600px;
 	width: 100%;
 	background: #F7DD3B;
+	min-width: 1224px;
+  	max-width: 100%;
 	
 
 }
@@ -190,5 +192,7 @@ footer
 	background: #2d2c2c;
 	color: white;
 	height: 70px;
+	 min-width: 1224px;
+  max-width: 100%;
 	
 }
